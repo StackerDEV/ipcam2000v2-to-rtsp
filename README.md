@@ -1,6 +1,6 @@
 # IPCam2000v2 to RTSP stream
 
-* This IoT security camera doesn't allow you to set-up local RTSP streaming for your software DVR because the Android/iOS application makes a cryptographic slated hash of your password and configures it on the device using avSendIOCtrl/avRecvIOCtrl.
+* This IoT security camera doesn't allow you to set-up local RTSP streaming for your software DVR because the Android/iOS application makes a cryptographic salted hash of your password and configures it on the device using avSendIOCtrl/avRecvIOCtrl.
 
 * After some reverse engineering I found out the client application uses TuTk's IOTC SDK. The SDK headers and libraries where uploaded to GitHub, cool let's git clone.
 
