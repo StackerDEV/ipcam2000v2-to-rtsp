@@ -29,9 +29,9 @@ Example
 ### Device
 Some device information
 
-Device name      | uboot image             | firmware           |
----------------- | ----------------------- | ------------------ |
-IPCAM-2000(v2)   | JVS-HI3518ES-8188       | 0.1.9.0            |
+Device name      | uboot image             | firmware           | Manufacturer | Manufacturer model number |
+---------------- | ----------------------- | ------------------ | ------------ | ------------------------- |
+IPCAM-2000(v2)   | JVS-HI3518ES-8188       | 0.1.9.0            | Sharetronic  | S510                      |
 
 
 ### Penetration Capability
