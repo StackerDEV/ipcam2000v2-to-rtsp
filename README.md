@@ -11,7 +11,7 @@ This is unlikely going to happen since this cloud feature is embedded in the fir
 
 ## Remote firmware updating 
 
-There is no HTTPS used, do a mitm or bind dns redirect to a local webserver serving your modified firm or with see bins in bonus folder (use binwalk) not sure if there's a checksum and for unbricking (you have to first crack open the camera and test if there's a JTAG without password and if there is try to look in the firm bin with binwalk in /etc/ for the file passwd. But again not sure have not opend the camera is not was mine, maybe there is a external eeprom soic8 and you can easily make it in-circuit flashing compatible with litle mod.
+There is no HTTPS used, do a mitm or bind dns redirect to a local webserver serving your modified firm or with see bins in bonus folder (use binwalk) not sure if there's a checksum and for unbricking. You have to first crack open the camera and test if there's a JTAG without password and if there is try to look in the firm bin with binwalk in /etc/ for the file passwd first check this before flashing and bricking it.. But again not sure have not opend the camera is not was mine, maybe there is a external eeprom soic8 and you can easily make it in-circuit flashing compatible with litle mod.
 
 ## Todo
 
