@@ -9,6 +9,10 @@
 The concept was to make a client from the SDK source that allowed to pass through the video stream to a local Live555 RTSP server in LAN mode so that we can add our RTSP to our software DVR so you don't have to connect the device to the cloud.
 This is unlikely going to happen since this cloud feature is embedded in the firmware itself. Beside the project folder there's also another folder ;)
 
+## Remote firmware updating 
+
+There is no HTTPS used, do a mitm or bind dns redirect to a local webserver serving your modified firm or with see bins in bonus folder (use binwalk) not sure if there's a checksum and for unbricking (you have to first crack open the camera and test if there's a JTAG without password and if there is try to look in the firm bin with binwalk in /etc/ for the file passwd. But again not sure have not opend the camera is not was mine, maybe there is a external eeprom soic8 and you can easily make it in-circuit flashing compatible with litle mod.
+
 ## Todo
 
 Add send and receive handler for password change from AVAPI Client, or use the alternative Android application..
