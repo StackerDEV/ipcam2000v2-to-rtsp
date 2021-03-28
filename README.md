@@ -4,6 +4,8 @@
 
 * After some reverse engineering I found out the client application uses TuTk's IOTC SDK. The SDK headers and libraries where uploaded to GitHub, cool let's git clone.
 
+* Closned from git repo https://github.com/TutkKalay/Kalay_Kit_Sample_App
+
 ## Basic Concept
 
 The concept was to make a client from the SDK source that allowed to pass through the video stream to a local Live555 RTSP server in LAN mode so that we can add our RTSP to our software DVR so you don't have to connect the device to the cloud.
