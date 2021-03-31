@@ -4,7 +4,7 @@
 
 * After some reverse engineering I found out the client application uses TuTk's IOTC SDK. The SDK headers and libraries where uploaded to GitHub, cool let's git clone.
 
-* Closned from git repo https://github.com/TutkKalay/Kalay_Kit_Sample_App
+* Can't find repo I cloned from but see https://github.com/TutkKalay/Kalay_Kit_Sample_App  and  https://github.com/taishanmayi/tutk_test/blob/master/source/AVAPIs_Client.c
 
 ## Basic Concept
 
