@@ -26,7 +26,7 @@ After setting up your camera in your network you should start AVAPI Client as fo
 
 > AVAPIs_Client mypassword
 
-Replace "mypassword" with your password of your Trustsmartcloud account. After this it will generate a salted SHA256 password and show you the RTSP streaming url after searching in the LAN network and after querying for device information.
+Replace "mypassword" with your password of your Trustsmartcloud account. After this it will generate a salted SHA256 password and show you the RTSP streaming url after searching in the LAN (broadcast, see wireshark in promiscuous mode) and after querying for device information.
 
 Example
 
